@@ -1,0 +1,12 @@
+header {
+  background: url("../img/bar1.png") center/cover no-repeat;
+  padding: 150px 100px;
+  color: #fff;
+  text-align: center;
+}
+header h2 {
+  font-size: 4rem;
+}
+header h1 {
+  font-size: 5rem;
+}

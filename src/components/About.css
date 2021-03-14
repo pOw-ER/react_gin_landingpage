@@ -1,0 +1,45 @@
+.about {
+  padding: 100px 0px 100px 100px;
+  color: #fff;
+  background-color: #333;
+  font-family: "Yantramanav";
+}
+
+.about img {
+  display: block;
+  width: 100%;
+}
+
+.about p {
+  width: 60%;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.about button {
+  border: none;
+  padding: 10px 40px;
+  background-color: #bb7043;
+  font-size: 16px;
+}
+.about h5 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+.about h2 {
+  font-size: 84px;
+  font-weight: 400;
+  margin: 0;
+}
+.about h2:nth-of-type(2) {
+  margin-top: -25px;
+}
+.about h2:nth-of-type(3) {
+  margin-top: -25px;
+}
+.about > div {
+  display: flex;
+  justify-content: space-between;
+}
