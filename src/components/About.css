@@ -1,5 +1,5 @@
 .about {
-  padding: 100px 0px 100px 100px;
+  padding: 200px 0px 200px 100px;
   color: #fff;
   background-color: #333;
   font-family: "Yantramanav";
@@ -7,7 +7,7 @@
 
 .about img {
   display: block;
-  width: 100%;
+  width: 45%;
 }
 
 .about p {

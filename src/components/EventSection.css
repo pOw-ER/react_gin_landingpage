@@ -1,0 +1,24 @@
+#events_section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #bb7042;
+}
+
+#events_section h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#events {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#events h5,
+#events h6 {
+  color: #fff;
+}

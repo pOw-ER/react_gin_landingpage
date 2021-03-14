@@ -3,7 +3,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header>
+    <header style={{ backgroundImage: `url('/img/bar1.png')` }}>
       <h2>CLASSIC</h2>
       <h1>GIN JOINT</h1>
       <h2>NEW YORK</h2>

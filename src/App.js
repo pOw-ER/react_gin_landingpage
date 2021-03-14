@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
+import EventSection from './components/EventSection';
 
 
 let sectionProps = [
@@ -19,7 +20,7 @@ let sectionProps = [
     sectionTitle3: "GOOD EATS",
     sectionP: `We mix our gin and other spirits with the finest and freshest fruits, juices, syrups and infusions in cocktails inspired by original recipes.`,
     buttonText: "See Menus",
-    imgUrl: '../img/Rectangle.png'
+    imgUrl: '../img/glasses.png'
   }
 ]
 
@@ -35,6 +36,7 @@ function App() {
         paragraph={sectionProps[0].sectionP}
         buttonText={sectionProps[0].buttonText}
       />
+      <EventSection />
       <About
         img={sectionProps[1].imgUrl}
         name={sectionProps[1].sectionName}
